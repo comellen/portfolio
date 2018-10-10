@@ -1,0 +1,14 @@
+:root {
+    --red: rgb(207, 152, 142);
+    --orange: #f98500;
+    --yellow: #ffc600;
+    --green: rgb(214, 227, 187);
+    --blue-green: #0ed6a4;
+    --blue: rgb(170, 182, 204);
+    --purple: #6a00b2;
+    --brown: #8c7a51;
+    --grey:rgb(96, 100, 107);
+    --black: #272727;
+    --white: rgb(255, 250, 249);
+   --font-one: "Consolas", sans-serif;
+}

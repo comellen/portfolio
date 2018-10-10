@@ -1,0 +1,10 @@
+#conEmail {
+    margin: 10px;
+}
+#emailSubmit {
+    margin-left: 10px;
+}
+#jumboContact {
+    background: var(--white);
+    color: var(--black);
+}

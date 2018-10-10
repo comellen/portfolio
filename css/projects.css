@@ -1,0 +1,51 @@
+.blueboy {
+    background-color: var(--blue);
+    min-height: 250px;
+}
+.desc {
+    padding: 20px !important;
+}
+.padText {
+    padding: 20px
+}
+.projImg01 {
+    min-width: 400px;
+    min-height: 250px;
+    background: url(../assets/tutpage_bw.png) no-repeat center;
+    display: inline-block;
+}
+.projImg01:hover {
+    min-width: 400px;
+    min-height: 250px;
+    background: url(../assets/tutpage_co.png) no-repeat center;
+    display: inline-block;
+    
+}
+.projImg02 {
+    width: 400px !important;
+    height: 250px !important;
+    background: url(../assets/tutpage_bw.png) no-repeat center;
+    display: inline-block;
+    padding: 10px 0 0 10px;
+}
+.projImg02:hover {
+    width: 400px !important;
+    height: 250px !important;
+    background: url(../assets/tutpage_bw.png) no-repeat center;
+    display: inline-block;
+    padding: 10px 0 0 10px;
+}
+.projImg03 {
+    width: 400px !important;
+    height: 250px !important;
+    background: url(../assets/tutpage_bw.png) no-repeat center;
+    display: inline-block;
+    padding: 10px 0 0 10px;
+}
+.projImg03:hover {
+    width: 400px !important;
+    height: 250px !important;
+    background: url(../assets/tutpage_bw.png) no-repeat center;
+    display: inline-block;
+    padding: 10px 0 0 10px;
+}

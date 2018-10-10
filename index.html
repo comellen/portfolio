@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Portfolio | Connor Mellencamp</title>
+</head>
+
+<body>
+    <!-- edited navbar from bootstrap website below-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navStyle">
+        <a class="navbar-brand navLinks" href="#">Connor Mellencamp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="active">
+                    <a class="nav-link navLinks" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="https://docs.google.com/document/d/1VdWsKwkOTH98cZpRN3fNoP4D5lWgEiT2b0fMK7Cr9Lk/edit?usp=sharing">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron" id="jumboProjects">
+        <h1 class="display-3 float-left">Projects</h1>
+        <br><br>
+        <p class="lead padText">Please check out my projects below! These projects were completed during my cohort at
+            Eleven
+            Fifty Academy.</p>
+    </div>
+    <div class="containter">
+        <div class="row">
+            <div class="col-12 blueboy">
+                <div class="row">
+                    <div class="col-md-6 projImg01">
+                        <a href="https://recipe-api-proj.firebaseapp.com"></a>
+                    </div>
+                    <div class="col-lg-6 desc">
+                            <a href="https://recipe-api-proj.firebaseapp.com"><h1 class="padText">Specialized Recipe Search</h1></a>
+                        <p class="padText">This page pulls data from the Edamam API based upon the user's search term,
+                            diet and health options,
+                            and food/recipe omissions. The data is then displayed on the page using JavaScript.</p>
+                    </div>
+                </div>
+                <hr class="my-4">
+            </div>
+            <div class="col-12 blueboy">
+                <div class="row">
+                    <div class="col-md-6 projImg01">
+                    </div>
+                    <div class="col-lg-6 desc">
+                            <a href="https://codepen.io/tomatojuice/pen/xaNeWO"><h1 class="padText">JavaScript Tutorial</h1></a>
+                        <p class="padText">A static webpage describing JavaScript Fundamentals. This project was a
+                            practice in HTML and
+                            CSS styling.
+                            The inspiration for the style of this page comes from the color scheme <a href="#">Monokai
+                                Pro</a>,
+                            the color scheme I most enjoy using in VS Code.</p>
+                    </div>
+                </div>
+                <hr class="my-4">
+            </div>
+            <div class="col-12 blueboy">
+                <div class="row">
+                    <div class="col-md-6 projImg01">
+                    </div>
+                    <div class="col-lg-6 desc">
+                        <a href="https://codepen.io/tomatojuice/pen/xaNeWO"><h1 class="padText">CSS Creature</h1></a>
+                        <p class="padText">This codePen is a simple exercise in CSS shaping and positioning. This was our first project at Eleven Fifty Academy.</p>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- About Me-->
+    <div class="jumbotron" id="jumboAbout">
+        <h1 class="display-3 float-left" id="aboutMe">About Me</h1>
+        <br><br>
+        <p class="lead projText">I am a student at Eleven Fifty Academy in Fishers, Indiana working on web development with a focus in JavaScript.
+            <br>
+            In my free time, I enjoy hiking, reading, cooking, mountain biking, Brazilian Jiu Jitsu, and glassblowing.</p>
+    </div>
+    <!-- Contact Section-->
+    <div class="jumbotron" id="jumboContact">
+        <h1 class="display-3 float-left">Contact</h1>
+        <div class="row"></div>
+        <div class="col-md-6"></div>
+        <form method="POST" action="https://formspree.io/connor.mellencamp@gmail.com">
+            <input type="email" id="conEmail" name="email" placeholder="Your email">
+            <br>
+            <textarea id="conEmail" name="message" placeholder="Your message"></textarea>
+            <br>
+            <button type="submit" id="emailSubmit">Send</button>
+        </form>
+    </div>
+    <nav class="navbar fixed-bottom navbar-light" id="navStyle">This is my Footer. 2018.</nav>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

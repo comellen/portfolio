@@ -1,0 +1,12 @@
+.jumbotron {
+    border-radius: 0 !important;
+    margin-bottom: 0;
+}
+#jumboProjects {
+    /* background: url("../assets/IMG_0057.jpg") no-repeat center; */
+    background-image: linear-gradient(var(--white), var(--blue));
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    color: var(--black);
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+#jumboAbout {
+    background-image: linear-gradient(var(--blue), var(--white));
+    color: var(--black);
+}
+#aboutMe {
+    padding-right: 20px;
+}
