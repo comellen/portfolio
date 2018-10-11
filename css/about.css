@@ -1,6 +1,7 @@
 #jumboAbout {
     background-image: linear-gradient(var(--blue), var(--white));
     color: var(--black);
+    padding-top: 8em;
 }
 #aboutMe {
     padding-right: 20px;

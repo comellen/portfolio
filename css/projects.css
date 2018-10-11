@@ -1,51 +1,33 @@
 .blueboy {
     background-color: var(--blue);
     min-height: 250px;
+    justify-content: center;
 }
 .desc {
     padding: 20px !important;
 }
 .padText {
-    padding: 20px
+    padding: 20px;
 }
 .projImg01 {
     min-width: 400px;
     min-height: 250px;
-    background: url(../assets/tutpage_bw.png) no-repeat center;
+    background: url(../assets/api_co.png) no-repeat center;
     display: inline-block;
+    width: 100%;
 }
-.projImg01:hover {
-    min-width: 400px;
-    min-height: 250px;
+
+.projImg02 {
+    width: 400px;
+    height: 250px;
     background: url(../assets/tutpage_co.png) no-repeat center;
     display: inline-block;
-    
-}
-.projImg02 {
-    width: 400px !important;
-    height: 250px !important;
-    background: url(../assets/tutpage_bw.png) no-repeat center;
-    display: inline-block;
-    padding: 10px 0 0 10px;
-}
-.projImg02:hover {
-    width: 400px !important;
-    height: 250px !important;
-    background: url(../assets/tutpage_bw.png) no-repeat center;
-    display: inline-block;
-    padding: 10px 0 0 10px;
+    width: 100%;
 }
 .projImg03 {
-    width: 400px !important;
-    height: 250px !important;
-    background: url(../assets/tutpage_bw.png) no-repeat center;
+    width: 400px;
+    height: 250px;
+    background: url(../assets/cssc_co.png) no-repeat center;
     display: inline-block;
-    padding: 10px 0 0 10px;
-}
-.projImg03:hover {
-    width: 400px !important;
-    height: 250px !important;
-    background: url(../assets/tutpage_bw.png) no-repeat center;
-    display: inline-block;
-    padding: 10px 0 0 10px;
+    width: 100%;
 }
