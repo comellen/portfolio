@@ -1,5 +1,5 @@
 .blueboy {
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
     min-height: 250px;
     justify-content: center;
 }
