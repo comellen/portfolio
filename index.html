@@ -41,8 +41,9 @@
         </nav>
         <a name="projects"></a>
         <div class="jumbotron" id="jumboProjects">
-            <h1 class="display-3 float-left" name="projects">Projects</h1>
-            <br><br>
+            <div class="row">
+                <h1 class="display-3 float-left" name="projects">Projects</h1>
+            </div>
             <p class="lead padText">Please check out my projects below! These projects were completed during my cohort
                 at
                 Eleven
@@ -100,8 +101,9 @@
         </div>
         <a name="about"></a>
         <div class="jumbotron" id="jumboAbout">
-            <h1 class="display-3 float-left" id="aboutMe">About Me</h1>
-            <br><br>
+            <div class="row">
+                <h1 class="display-3 float-left" id="aboutMe">About Me</h1>
+            </div>
             <p class="lead projText">I am a student at Eleven Fifty Academy in Fishers, Indiana working on web
                 development
                 with a focus in JavaScript.
@@ -110,19 +112,21 @@
         </div>
         <a name="contact"></a>
         <div class="jumbotron" id="jumboContact">
-            <h1 class="display-3 float-left" name="contact">Contact</h1>
             <div class="row">
-                <div class="col-md-6"></div>
-                <form method="POST" action="https://formspree.io/connor.mellencamp@gmail.com">
+                <h1 class="display-3 float-left" name="contact">Contact</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <form class="col-md-6" id="emailForm" method="POST" action="https://formspree.io/connor.mellencamp@gmail.com">
                     <input type="email" id="emailadd" name="email" placeholder="Your email">
                     <br>
-                    <textarea id="emailmess" name="message" placeholder="Your message"></textarea>
+                    <textarea id="emailmess" name="message" placeholder="Your message" rows="6"></textarea>
                     <br>
                     <button type="submit" id="emailSubmit">Send</button>
                 </form>
             </div>
         </div>
-        <!-- <footer>Connor Mellencamp, 2018 | connor.mellencamp@gmail.com</footer> -->
+        <footer id="footer">Connor Mellencamp, 2018 | connor.mellencamp@gmail.com</footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

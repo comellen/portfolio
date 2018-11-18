@@ -1,6 +1,6 @@
 #emailadd {
     margin: 10px;
-    width: 100%;
+    width: 50%;
 }
 #emailmess {
     margin: 10px;
@@ -12,6 +12,5 @@
 #jumboContact {
     background: var(--white);
     color: var(--black);
-    margin-top: 4em;
     width: 100%;
 }
