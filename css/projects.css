@@ -31,3 +31,10 @@
     display: inline-block;
     width: 100%;
 }
+.projImg04 {
+    width: 400px;
+    height: 250px;
+    background: url(../assets/pern_co.png) no-repeat center;
+    display: inline-block;
+    width: 100%;
+}
