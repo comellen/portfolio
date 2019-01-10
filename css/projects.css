@@ -1,47 +1,53 @@
 .blueboy {
-    /* background-color: var(--blue); */
-    min-height: 250px;
-    justify-content: center;
+  /* background-color: var(--blue); */
+  min-height: 250px;
+  justify-content: center !important;
 }
 .desc {
-    padding: 20px !important;
+  padding: 20px !important;
 }
 .padText {
-    padding-left: 20px;
+  padding-left: 5%;
 }
 .projImg01 {
-    width: 400px;
-    height: 250px;
-    background: url(../assets/recipe-api.png) no-repeat center;
-    display: inline-block;
-    width: 100%;
+  max-width: 400px;
+  min-height: 250px;
+  max-height: 250px;
+  margin-left: 5%;
+  background: url(../assets/recipe-api.png) no-repeat center;
+  display: inline-block;
 }
 
 .projImg02 {
-    width: 400px;
-    height: 250px;
-    background: url(../assets/js-fundies.png) no-repeat center;
-    display: inline-block;
-    width: 100%;
+  max-width: 400px;
+  min-height: 250px;
+  max-height: 250px;
+  margin-left: 5%;
+  background: url(../assets/js-fundies.png) no-repeat center;
+  display: inline-block;
 }
 .projImg03 {
-    width: 400px;
-    height: 250px;
-    background: url(../assets/css-creature.png) no-repeat center;
-    display: inline-block;
-    width: 100%;
+  max-width: 400px;
+  min-height: 250px;
+  max-height: 250px;
+  margin-left: 5%;
+  background: url(../assets/css-creature.png) no-repeat center;
+  display: inline-block;
 }
 .projImg04 {
-    width: 400px;
-    height: 250px;
-    background: url(../assets/berm.png) no-repeat center;
-    display: inline-block;
-    width: 100%;
+  max-width: 400px;
+  min-height: 250px;
+  max-height: 250px;
+  margin-left: 5%;
+  background: url(../assets/berm.png) no-repeat center;
+  display: inline-block;
 }
 .projImg05 {
-    width: 400px;
-    height: 250px;
-    background: url(../assets/travall.png) no-repeat center;
-    display: inline-block;
-    width: 100%;
+  max-width: 400px;
+  min-height: 250px;
+  max-height: 250px;
+  margin-left: 5%;
+  background: url(../assets/travall.png) no-repeat center;
+  display: inline-block;
+
 }
